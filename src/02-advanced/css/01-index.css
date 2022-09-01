@@ -1,0 +1,8 @@
+.active {
+  width: 200px;
+  height: 200px;
+  background: indigo;
+}
+.hidden{
+  display: none;
+}
