@@ -3,7 +3,11 @@ import React, { Component } from 'react'
 export default class DemoState extends Component {
 
   // state = {
+<<<<<<< HEAD
   //   text2413.js: '收藏',
+=======
+  //   text: '收藏',
+>>>>>>> origin/master
   //   text2: true
   // }
 
@@ -26,13 +30,21 @@ export default class DemoState extends Component {
 
   render() {
 
+<<<<<<< HEAD
     // var text2413.js = "收藏" // 临时变量
+=======
+    // var text = "收藏" // 临时变量
+>>>>>>> origin/master
 
     return (
       <div>
         <h1>欢迎来到React-{ this.state.myName}</h1>
         <button onClick={() => {
+<<<<<<< HEAD
           // this.state.text2413.js = '取消收藏' /* 不要直接修改状态 */
+=======
+          // this.state.text = '取消收藏' /* 不要直接修改状态 */
+>>>>>>> origin/master
 
           this.setState({
             text: '取消收藏',
